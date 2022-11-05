@@ -1,0 +1,6 @@
+pergunta_1 = input ('Qual sua altura? Escreva ao lado e, te daremos seu peso ideal: ')
+
+conta_1 = (72.7 * float (pergunta_1)) - 58
+resposta_1 = f'Seu peso ideal é: {conta_1}'
+
+print (resposta_1)
