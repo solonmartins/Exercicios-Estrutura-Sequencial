@@ -1,0 +1,4 @@
+numero = input ('Digite ao lado seu numero: ')
+resposta = f'O número informado foi {numero}'
+
+print (resposta)
