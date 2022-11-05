@@ -1,0 +1,12 @@
+pergunta_1 = input ('Você é homem ou mulher? Digite ao lado: ')
+pergunta_2 = input ('Qual sua altura? Digite, novamente, ao lado: ')
+
+conta_homem = (72.7 * float (pergunta_2)) - 58
+conta_mulher = (62.1 * float (pergunta_2)) - 44.7
+
+if pergunta_1 == 'homem':
+    print ('Seu peso ideal, sendo homem e tendo', pergunta_2,'de altura é:',conta_homem,'kgs.')
+
+elif pergunta_1 == 'mulher':
+    print ('Seu peso ideal, sendo mulher e tendo', pergunta_2,'de altura é:',conta_mulher,'kgs.')
+    
