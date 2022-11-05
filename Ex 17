@@ -1,0 +1,32 @@
+pergunta_1 = input ('Qual o tamanho, em metros quadrados, da área a ser pintada? ')
+
+conta_litros =(float (pergunta_1) / 6)
+resposta_litros = f'\nEm {pergunta_1} metros, é necessário {conta_litros} litros de tinta.'
+print (resposta_litros)
+
+##############################################################
+
+print ('\nSe você for usar latas:')
+
+conta_latas = (conta_litros / 18)
+resposta_latas = f'>>>>> {conta_litros} litros equivale a {conta_latas} latas de tinta.'
+print (resposta_latas)
+
+
+conta_preço_latas = conta_latas * 80
+resposta_preço_latas = f'>>>>> O preço de {conta_latas} latas de tinta, é: {conta_preço_latas} reais.'
+print (resposta_preço_latas)
+
+##############################################################
+
+print ('\nSe você for usar galões:')
+
+conta_galoes = (conta_litros / 3.6)
+resposta_galoes = f'>>>>> {conta_litros} litros equivale a {conta_galoes} galões de tinta.'
+print (resposta_galoes)
+
+conta_preço_galoes = conta_galoes * 25
+resposta_preço_galoes = f'O preço de {conta_galoes} galões de tinta, é: {conta_preço_galoes} reais.'
+print (resposta_preço_galoes)
+
+##############################################################
