@@ -1,0 +1,3 @@
+pergunta = input ('Digite ao lado a metragem, que converteremos para centímetros: ')
+conta = float (100) * float (pergunta)
+print (pergunta, 'metro em centímetros é',conta)
