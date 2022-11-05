@@ -1,0 +1,13 @@
+pergunta_1 = input ('Digite um número inteiro ao lado: ')
+pergunta_2 = input ('Digite outro número inteiro ao lado: ')
+pergunta_3 = input ('Agora digite um número real: ')
+
+conta_1 = (int (pergunta_1) * 2) * (int (pergunta_2) / 2)
+resultado_1 = f'O produto do dobro do primeiro número com metade do segundo é: {conta_1}'
+print (resultado_1)
+
+conta_2 = (int (pergunta_1) * 3) + (int (pergunta_3))
+print ('A soma do triplo do primeiro com o terceiro é: ', conta_2)
+
+conta_3 = float (pergunta_3) ** 3
+print ('O terceiro número elevado ao cubo é: ', conta_3)
