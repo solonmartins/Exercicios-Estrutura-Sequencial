@@ -1,0 +1,25 @@
+print ('>>>>> COUNTER')
+
+
+pergunta_1 = input ('Quanto você ganha por hora? Digite ao lado: ')     #
+pergunta_2 = input ('Quantas horas você trabalha ao mês? Digite, também, ao lado: ')
+
+conta_salario_bruto = float (pergunta_1) * float (pergunta_2)
+resposta_salario_bruto = f'\033[1:32mSeu salário bruto, ao mês, é de {conta_salario_bruto} reais.'
+print (resposta_salario_bruto)
+
+conta_IR = (11 * float (conta_salario_bruto)) / 100
+resposta_IR = f'\033[1:33mDo seu salário bruto, você deve {conta_IR} reais para o IMPOSTO DE RENDA.'
+print (resposta_IR)
+
+conta_INSS = (8 * float (conta_salario_bruto)) / 100
+resposta_INSS = f'\033[1:33mVocê também deve {conta_INSS} reais para o INSS.'
+print (resposta_INSS)
+
+conta_SINDICATO = (5 * float (conta_salario_bruto)) / 100
+resposta_SINDICATO = f'\033[1:33mE, por fim, {conta_SINDICATO} reais para o SINDICATO.'
+print (resposta_SINDICATO)
+
+conta_salario_liquido = conta_salario_bruto - conta_IR - conta_INSS - conta_SINDICATO
+resposta_salario_bruto = f'\033[1:32mSeu salário LÍQUIDO é de {conta_salario_liquido} reais.'
+print (resposta_salario_bruto)
