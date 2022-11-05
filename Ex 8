@@ -1,0 +1,5 @@
+pergunta_1 = input ('Qual seu salário por hora? Responda ao lado: ')
+pergunta_2 = input ('Quantas horas você trabalha ao mês? Responda também ao lado: ')
+conta = float (pergunta_1) * float (pergunta_2)
+
+print (conta)
