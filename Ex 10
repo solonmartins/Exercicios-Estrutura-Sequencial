@@ -1,0 +1,6 @@
+print ('Conversor de temperatura 2.0:')
+pergunta = input ('Digite ao lado a temperatura em Celsius, que abaixo aparecerá a temperatura já convertida em graus Fahrenheit: ')
+
+resultado = (float (pergunta) * 1.8) + 32
+
+print ('O resultado da sua conversão é:', resultado)
