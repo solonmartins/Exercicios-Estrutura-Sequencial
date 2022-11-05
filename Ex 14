@@ -1,0 +1,10 @@
+pergunta_1 = input ('Quantos kilos você trouxe? Digite ao lado: ')
+
+conta_1 = float (pergunta_1) - 50     # excesso de kilogramas
+conta_2 = float (conta_1) * 4     # valor que deve ser pago (4reais por kg)
+
+if float (pergunta_1) > 50:
+    print('Seu excesso é de:',conta_1,'kilos. Você deverá pagar:',conta_2,'reais.')
+elif float (pergunta_1) <= 50:
+    print ('Não há excessos.')
+    
