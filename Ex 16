@@ -1,0 +1,9 @@
+pergunta_1 = input ('Qual o tamanho, em metros quadrados, da área a ser pintada? ')
+
+conta_quantidade_latas = (float (pergunta_1) / 3) / 18
+resposta_quantidade_latas = f'Você precisará de {conta_quantidade_latas} latas de tinta.'
+print (resposta_quantidade_latas)
+
+conta_custo_latas = conta_quantidade_latas * 80
+resposta_custo_latas = f'Você gastará {conta_custo_latas} reais comprando as latas de tinta.'
+print (resposta_custo_latas)
