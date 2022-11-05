@@ -1,0 +1,4 @@
+pergunta = input ('Digite ao lado o raio do circulo, e mostraremos sua área abaixo: ')
+conta = 3.14 * (float (pergunta) ** 2)
+
+print (f'A área deste circulo é {conta}')
