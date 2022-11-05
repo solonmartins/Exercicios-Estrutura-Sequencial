@@ -1,0 +1,5 @@
+pergunta_1 = input ('Digite ao lado a base do quadrado: ')
+pergunta_2 = input ('Digite ao lado a altura do quadrado: ')
+conta_1 = float (pergunta_1) * float (pergunta_2)
+conta_2 = conta_1 * 2
+print (conta_2)
