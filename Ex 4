@@ -1,0 +1,8 @@
+pergunta_1 = input ('Qual sua nota no primeiro bimestre? Digite ao lado: ')
+pergunta_2 = input ('Qual sua nota no segundo bimestre? Digite ao lado: ')
+pergunta_3 = input ('Qual sua nota no terçeiro bimestre? Digite ao lado: ')
+pergunta_4 = input ('Qual sua nota no quarto bimestre? Digite ao lado: ')
+
+formula = (float (pergunta_1) + float (pergunta_2) + float (pergunta_3) + float (pergunta_4)) /4
+
+print (f'Sua média é: {formula}')
